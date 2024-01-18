@@ -1,5 +1,7 @@
 # Serializers
 
+**aqui vai esta algumas anotações referentes a [documentação oficial do django restframework](https://www-django--rest--framework-org.translate.goog/api-guide/serializers/?_x_tr_sl=auto&_x_tr_tl=pt&_x_tr_hl=pt-BR) é apenas uma forma de fixar alguns conceitos sobre os assuntos.**
+
 basicamente um serializer é um elemento que transforma consultas do banco e instância de modelos do django em dados nativo do python para poderem ser transformados facilmente em `JSON` ou `XML`.
 
 para usarmos o serializador temos que importa-los:
@@ -38,3 +40,10 @@ esses dois metodos são chamados automaticamente quando chamamos o metodo `save(
 
 ## Validação
 
+quando estamos desserializando precisamos sempre verificar se o serializador é valido usado o `is_valid()`
+
+podemos criar validações de campos do seu model. basta criar a função em sua subclasse serializadora e criar um metodo que inicie com `validate_<nome do campo>()`. essa função deverá retornar obrigatoriamente um valor validado ou uma exceção do tipo `serializers.ValidationError`.
+
+caso queira personalizar sua validação, você poderá "sobreescrever" a função `validate(data)` em sua subclasse serializadora. no qual data é um dicionario de valores sobre o seu modelo. da mesma forma que a função especifica para um campo especifico, deve-se retornar o dicionario com os valores validados ou uma exeção do tipo `serializers.ValidationError`.
+
+## Lidando com vários objetos aninhados
