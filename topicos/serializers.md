@@ -37,3 +37,4 @@ Na classe serializadora podemos implementar os metodos `create()` e `update()`.
 esses dois metodos são chamados automaticamente quando chamamos o metodo `save()` da instâcia da classe serializadora quando ela é valida pelo metodo `is_valid()`. quando passamos apenas um argumento na classe serializadora como um **data** que contem um dicionario python com os dados do modelo, quando verificamos se o serializador é valido, apos usar o metodo `save()` criamos e retornamos uma nova instância do modelo. já quando passamos dois argumentos para a classe serializadora, **instance**, **data**, quando o serializador é valido e usamos o metodo `save()` estamos atualizando a instância passada como argumento.
 
 ## Validação
+
