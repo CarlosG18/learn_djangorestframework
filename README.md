@@ -12,10 +12,15 @@ O **Django REST framework** é uma poderosa ferramenta para construir APIs web e
 
 ## 📚 Tópicos de estudo
 
-- [📌 Instalação do django rest_framework](https://github.com/CarlosG18/learn_djangorestframework/blob/main/topicos/instalacao.md)
+- [📌 Instalação do django rest_framework [ok]](https://github.com/CarlosG18/learn_djangorestframework/blob/main/topicos/instalacao.md)
 
-- [📌 Serializers](https://github.com/CarlosG18/learn_djangorestframework/blob/main/topicos/serializers.md)
+- [📌 Serializers [70%]](https://github.com/CarlosG18/learn_djangorestframework/blob/main/topicos/serializers.md)
+
+## 🛤️ Trilha de Estudos
+
+- [📌 Realizando a formação sobre djangorest da Alura](https://github.com/CarlosG18/formacao_djangorest)
 
 ## 🎯 Projetos
 
 - [📌 API - Datarunner](https://github.com/CarlosG18/datarunner)
+
