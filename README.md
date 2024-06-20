@@ -16,6 +16,8 @@ O **Django REST framework** é uma poderosa ferramenta para construir APIs web e
 
 - [📌 Serializers [70%]](https://github.com/CarlosG18/learn_djangorestframework/blob/main/topicos/serializers.md)
 
+- [📌 Métodos HTTP [40%]](./topicos/metodos_http.md)
+
 ## 🛤️ Trilha de Estudos
 
 - [📌 Realizando a formação sobre djangorest da Alura](https://github.com/CarlosG18/formacao_djangorest)
